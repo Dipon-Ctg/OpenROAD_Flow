@@ -28,3 +28,7 @@ save_image $RESULTS_DIR/mips_global_routed.png
 EOF
 
 echo "Global routing complete. DEF generated: $RESULTS_DIR/mips_global_routed.def"
+
+
+
+#set_routing_layers -signal Metal2-Metal10 -clock Metal6-Metal9
