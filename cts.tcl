@@ -33,8 +33,16 @@ write_def $RESULTS_DIR/mips_cts.def
 save_image $RESULTS_DIR/mips_cts.png
 
 # Report clock tree metrics (important for verification)
-report_clocks
+report_clocks  
 report_clock_tree
 EOF
 
 echo "CTS complete. DEF generated: $RESULTS_DIR/mips_cts.def"
+
+
+
+
+#clock_tree_synthesis -root_buf "BUF_X4" \
+#                     -buf_list "BUF_X4" \
+#                     -wire_unit 20
+#report_cts "file.txt"
