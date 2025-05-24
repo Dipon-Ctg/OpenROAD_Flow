@@ -76,3 +76,11 @@ save_image $RESULTS_DIR/mips_floorplanned.png
 EOF
 
 echo "Floorplanning complete. DEF generated: $RESULTS_DIR/mips_floorplanned.def"
+
+
+
+
+
+
+#initialize_floorplan -utilization 70 -aspect_ratio 1.0 -core_space 0.0 -sites FreePDK45_38x28_10R_NP_162NW_34O
+#initialize_floorplan -die_area 0 0 2000 2000 -core_area 100 100 1900 1900 -sites FreePDK45_38x28_10R_NP_162NW_34O
